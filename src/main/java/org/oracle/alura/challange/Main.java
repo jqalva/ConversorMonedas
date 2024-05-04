@@ -60,7 +60,7 @@ public class Main {
             }
             System.out.println("fromCurrency: " + fromCurrency + " toCurrency: " + toCurrency);
             // Setting URL
-            String url_str = "https://v6.exchangerate-api.com/v6/550e30eafe663c42961a5b39/latest/COP";
+            String url_str = "https://v6.exchangerate-api.com/v6//latest/COP";
 
             // Making Request
             URL url = new URL(url_str);
